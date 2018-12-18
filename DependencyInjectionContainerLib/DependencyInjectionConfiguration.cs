@@ -13,11 +13,6 @@ namespace DependencyInjectionContainerLib
             _registeredTypes = new Dictionary<Type, List<RegisteredTypeInfo>>();
         }
 
-
-
-
-
-
         private void RegisterNewPair(Type _interface, Type _implementation, LifecycleType _lifecycleType = LifecycleType.InstancePerDependency)
         {
             if (!_implementation.IsInterface && 
@@ -25,6 +20,25 @@ namespace DependencyInjectionContainerLib
                 _interface.IsAssignableFrom(_implementation))
             {
                 var registeredType = new RegisteredTypeInfo(_interface, _implementation, _lifecycleType);
+                if (!_registeredTypes.TryGetValue(_interface, out List<RegisteredTypeInfo> typesAlreadyRegistered))
+                {
+                    _registeredTypes.Add(_interface, new List<RegisteredTypeInfo>() { registeredType });
+                }
+                else
+                {
+                    if (!typesAlreadyRegistered.Contains(registeredType))
+                    {
+                        typesAlreadyRegistered.Add(registeredType);
+                    }
+                    else
+                    {
+                        //TODO: Throw exception maybe?
+                    }
+                }
+            }
+            else
+            {
+                //TODO: Throw another exception, probably.
             }
         }
     }
