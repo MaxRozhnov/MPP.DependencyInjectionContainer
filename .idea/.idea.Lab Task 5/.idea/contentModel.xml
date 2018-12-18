@@ -14,7 +14,7 @@
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="Utils" t="Include">
-          <e p="ConfiguredType.cs" t="Include" />
+          <e p="RegisteredTypeInfo.cs" t="Include" />
         </e>
       </e>
       <e p="Lab Task 5.sln" t="IncludeFlat" />

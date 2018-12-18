@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2aa45691-e4a3-4beb-98b6-bebe995cbebe" name="Default Changelist" comment="" />
+    <list default="true" id="2aa45691-e4a3-4beb-98b6-bebe995cbebe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DependencyInjectionContainerLib/Utils/RegisteredTypeInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab Task 5/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab Task 5/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab Task 5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab Task 5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DependencyInjectionContainerLib/DependencyInjectionConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjectionContainerLib/DependencyInjectionConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DependencyInjectionContainerLib/DependencyInjectionContainerLib.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjectionContainerLib/DependencyInjectionContainerLib.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DependencyInjectionContainerLib/Utils/ConfiguredType.cs" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +19,7 @@
     <session id="-1052200417">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -28,12 +36,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3" />
+          <entry key="cs" value="311" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3" />
+          <entry key="C#" value="311" />
         </counts>
       </usages-collector>
     </session>
@@ -68,14 +76,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DependencyInjectionContainerLib/Utils/ConfiguredType.cs">
+        <entry file="file://$PROJECT_DIR$/DependencyInjectionContainerLib/Utils/RegisteredTypeInfo.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="165">
+              <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
               <folding>
-                <marker date="1545081622025" expanded="true" signature="62:570" ph="{...}" />
-                <marker date="1545081622025" expanded="true" signature="96:568" ph="{...}" />
-                <marker date="1545081622025" expanded="true" signature="384:562" ph="{...}" />
+                <marker date="1545084329011" expanded="true" signature="62:668" ph="{...}" />
+                <marker date="1545084329011" expanded="true" signature="100:582" ph="{...}" />
+                <marker date="1545084329011" expanded="true" signature="396:576" ph="{...}" />
+                <marker date="1545084329011" expanded="true" signature="613:666" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -84,11 +93,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DependencyInjectionContainerLib/DependencyInjectionConfiguration.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="450">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding>
-                <marker date="1545081662160" expanded="true" signature="41:116" ph="{...}" />
-                <marker date="1545081662160" expanded="true" signature="93:114" ph="{...}" />
+                <marker date="1545084329070" expanded="true" signature="6:92" ph="..." />
+                <marker date="1545084329070" expanded="true" signature="135:901" ph="{...}" />
+                <marker date="1545084329070" expanded="true" signature="187:899" ph="{...}" />
+                <marker date="1545084329070" expanded="true" signature="330:431" ph="{...}" />
+                <marker date="1545084329070" expanded="true" signature="581:893" ph="{...}" />
+                <marker date="1545084329070" expanded="true" signature="749:883" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -96,9 +109,12 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/TestProgram/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DependencyInjectionContainerLib/Utils/ConfiguredType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DependencyInjectionContainerLib/Utils/RegisteredTypeInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DependencyInjectionContainerLib/DependencyInjectionConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DependencyInjectionContainerLib/DependencyInjectionContainer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -108,6 +124,7 @@
         <option value="$PROJECT_DIR$/DependencyInjectionContainerLib/Class1.cs" />
         <option value="$PROJECT_DIR$/DependencyInjectionContainerLib/DependencyInjectionContainer.cs" />
         <option value="$PROJECT_DIR$/DependencyInjectionContainerLib/Utils/ConfiguredType.cs" />
+        <option value="$PROJECT_DIR$/DependencyInjectionContainerLib/Utils/RegisteredTypeInfo.cs" />
         <option value="$PROJECT_DIR$/DependencyInjectionContainerLib/DependencyInjectionConfiguration.cs" />
       </list>
     </option>
@@ -119,11 +136,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="2100" />
-    <option name="height" value="1452" />
+    <option name="x" value="747" />
+    <option name="width" value="1821" />
+    <option name="height" value="1611" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -140,6 +157,12 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Lab Task 5" type="24d0babc:SolutionExplorerModelNode" />
               <item name="DependencyInjectionContainerLib" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Lab Task 5" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DependencyInjectionContainerLib" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Utils" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -196,12 +219,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545081086731</updated>
-      <workItem from="1545081089705" duration="571000" />
+      <workItem from="1545081089705" duration="3585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="571000" />
+    <option name="totallyTimeSpent" value="3585000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -214,9 +237,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1721" height="1081" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24984948" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24984948" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -239,6 +263,31 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24984948" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -271,6 +320,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/DependencyInjectionContainerLib/Utils/RegisteredTypeInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
+          <folding>
+            <marker date="1545084329011" expanded="true" signature="62:668" ph="{...}" />
+            <marker date="1545084329011" expanded="true" signature="100:582" ph="{...}" />
+            <marker date="1545084329011" expanded="true" signature="396:576" ph="{...}" />
+            <marker date="1545084329011" expanded="true" signature="613:666" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DependencyInjectionContainerLib/DependencyInjectionContainer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -282,25 +344,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DependencyInjectionContainerLib/Utils/ConfiguredType.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <marker date="1545081622025" expanded="true" signature="62:570" ph="{...}" />
-            <marker date="1545081622025" expanded="true" signature="96:568" ph="{...}" />
-            <marker date="1545081622025" expanded="true" signature="384:562" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DependencyInjectionContainerLib/DependencyInjectionConfiguration.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="450">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding>
-            <marker date="1545081662160" expanded="true" signature="41:116" ph="{...}" />
-            <marker date="1545081662160" expanded="true" signature="93:114" ph="{...}" />
+            <marker date="1545084329070" expanded="true" signature="6:92" ph="..." />
+            <marker date="1545084329070" expanded="true" signature="135:901" ph="{...}" />
+            <marker date="1545084329070" expanded="true" signature="187:899" ph="{...}" />
+            <marker date="1545084329070" expanded="true" signature="330:431" ph="{...}" />
+            <marker date="1545084329070" expanded="true" signature="581:893" ph="{...}" />
+            <marker date="1545084329070" expanded="true" signature="749:883" ph="{...}" />
           </folding>
         </state>
       </provider>
