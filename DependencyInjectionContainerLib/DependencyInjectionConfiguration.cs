@@ -14,6 +14,21 @@ namespace DependencyInjectionContainerLib
             _registeredTypes = new Dictionary<Type, List<RegisteredTypeInfo>>();
         }
 
+        public void Register<TInterface, TImplementation>(LifecycleType lifeCycle = LifecycleType.InstancePerDependency)
+        {
+            RegisterNewPair(typeof(TInterface), typeof(TImplementation), lifeCycle);
+        }
+
+        public void Register(Type tInterface, Type tImplementation, LifecycleType lifeCycle = LifecycleType.InstancePerDependency)
+        {
+            RegisterNewPair(tInterface, tImplementation, lifeCycle);
+        }
+
+        public void RegisterAsSelf<TImplementation>(LifecycleType lifeCycle = LifecycleType.InstancePerDependency) where TImplementation : class
+        { 
+            RegisterNewPair(typeof(TImplementation), typeof(TImplementation), lifeCycle);
+        }
+
         private void RegisterNewPair(Type _interface, Type _implementation, LifecycleType _lifecycleType = LifecycleType.InstancePerDependency)
         {
             if (!_implementation.IsInterface && 
@@ -21,6 +36,7 @@ namespace DependencyInjectionContainerLib
                 _interface.IsAssignableFrom(_implementation))
             {
                 var registeredType = new RegisteredTypeInfo(_interface, _implementation, _lifecycleType);
+
                 if (!_registeredTypes.TryGetValue(_interface, out List<RegisteredTypeInfo> typesAlreadyRegistered))
                 {
                     _registeredTypes.Add(_interface, new List<RegisteredTypeInfo>() { registeredType });
@@ -33,26 +49,19 @@ namespace DependencyInjectionContainerLib
                     }
                     else
                     {
-                        //TODO: Throw exception maybe?
+                        throw new Exception("Could not register type");
                     }
                 }
             }
             else
             {
-                //TODO: Throw another exception, probably.
+                throw new Exception("Could not register type"); //TODO: Throw another exception, probably.
             }
         }
 
         public RegisteredTypeInfo GetImplementation(Type _interface)
         {
-            if (_registeredTypes.TryGetValue(_interface, out List<RegisteredTypeInfo> typesAlreadyRegistered))
-            {
-                return typesAlreadyRegistered.First();
-            }
-            else
-            {
-                return null;
-            }
+            return (_registeredTypes.TryGetValue(_interface, out var list)) ? list.Last() : null;
         }
 
         public IEnumerable<RegisteredTypeInfo> GetAllImplementations(Type _interface)

@@ -1,0 +1,17 @@
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\bin\Debug\netcoreapp2.1\DICTest.deps.json
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\bin\Debug\netcoreapp2.1\DICTest.runtimeconfig.json
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\bin\Debug\netcoreapp2.1\DICTest.runtimeconfig.dev.json
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\bin\Debug\netcoreapp2.1\DICTest.dll
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\bin\Debug\netcoreapp2.1\DICTest.pdb
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\bin\Debug\netcoreapp2.1\DependencyInjectionContainerLib.dll
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\bin\Debug\netcoreapp2.1\DependencyInjectionContainerLib.pdb
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\obj\Debug\netcoreapp2.1\DICTest.csprojAssemblyReference.cache
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\obj\Debug\netcoreapp2.1\DICTest.csproj.CoreCompileInputs.cache
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\obj\Debug\netcoreapp2.1\DICTest.AssemblyInfoInputs.cache
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\obj\Debug\netcoreapp2.1\DICTest.AssemblyInfo.cs
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\obj\Debug\netcoreapp2.1\DICTest.csproj.CopyComplete
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\obj\Debug\netcoreapp2.1\DICTest.dll
+C:\Users\Max\RiderProjects\Lab Task 5\DICTest\obj\Debug\netcoreapp2.1\DICTest.pdb

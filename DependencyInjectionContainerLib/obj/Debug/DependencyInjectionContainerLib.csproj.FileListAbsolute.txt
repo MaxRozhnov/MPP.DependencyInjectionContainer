@@ -1,0 +1,6 @@
+C:\Users\Max\RiderProjects\Lab Task 5\DependencyInjectionContainerLib\bin\Debug\DependencyInjectionContainerLib.dll
+C:\Users\Max\RiderProjects\Lab Task 5\DependencyInjectionContainerLib\bin\Debug\DependencyInjectionContainerLib.pdb
+C:\Users\Max\RiderProjects\Lab Task 5\DependencyInjectionContainerLib\obj\Debug\DependencyInjectionContainerLib.csprojAssemblyReference.cache
+C:\Users\Max\RiderProjects\Lab Task 5\DependencyInjectionContainerLib\obj\Debug\DependencyInjectionContainerLib.csproj.CoreCompileInputs.cache
+C:\Users\Max\RiderProjects\Lab Task 5\DependencyInjectionContainerLib\obj\Debug\DependencyInjectionContainerLib.dll
+C:\Users\Max\RiderProjects\Lab Task 5\DependencyInjectionContainerLib\obj\Debug\DependencyInjectionContainerLib.pdb
